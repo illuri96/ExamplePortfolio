@@ -1,18 +1,37 @@
 {
+  "homepage":"http://illuri96.github.io/ExamplePortfolio",
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "@u-wave/react-youtube": "^0.7.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-fb-image-grid": "^0.1.5",
+    "react-grid-gallery": "^0.5.5",
+    "react-image-gallery": "^1.0.7",
+    "react-images": "^1.1.0",
+    "react-images-uploader": "^1.2.0-rc1",
     "react-mdl": "^1.11.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-player": "^1.15.3",
+    "react-progress-button": "^5.1.0",
+    "react-responsive-gallery": "^1.2.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.0"
+    "react-scripts": "1.1.0",
+    "react-youtube": "^7.10.0",
+    "react-youtube-playlist": "^2.2.8",
+    "youtube-api-search": "0.0.5"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

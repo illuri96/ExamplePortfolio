@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import Player from './player'
+import './player.css'
 
-
-class About extends Component {
-  render() {
-    return(
-      <div><h1>About Page</h1></div>
-    )
+class App extends Component {
+  render () {
+    return <Player/>
   }
 }
-
-export default About;
+export default App;

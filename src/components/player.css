@@ -1,0 +1,20 @@
+.leftcol {
+  background: Black;
+  border-radius: 25px;
+  color: white;
+  padding: inherit;
+}
+.interviews{
+  text-align: center;
+  color: red;
+  padding: inherit;
+}
+.video{
+  padding: inherit;
+  height: 350px;
+  width: 250px;
+}
+.rightcol{
+  background: orange;
+  border-radius: 25px;
+}
