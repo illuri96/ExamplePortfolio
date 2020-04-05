@@ -1,20 +1,46 @@
-.leftcol {
+.leftcol-interviews {
+  margin-top: 0px;
   background: Black;
   border-radius: 25px;
+  margin-left: 25px;
   color: white;
-  padding: inherit;
+  max-height: 100%;
+  max-width: 79%;
+}
+.stickynotes{
+  margin-top: 0px;
+  background: Black;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 0px;
+  color: white;
+  max-height: 100%;
+  max-width: 100%;
 }
 .interviews{
+  margin-top: auto;
   text-align: center;
+  font-weight: bold;
   color: red;
-  padding: inherit;
+  padding-top: 13px;
 }
-.video{
-  padding: inherit;
-  height: 350px;
-  width: 250px;
+.Content-Interviews{
+  padding: 1em;
+  height: auto;
+  width: auto;
 }
 .rightcol{
   background: orange;
   border-radius: 25px;
+}
+.Content-Interviews {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Content-Interviews:hover {
+  transform: scale(1.3);
 }

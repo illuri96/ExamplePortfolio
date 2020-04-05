@@ -2,17 +2,20 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import LandingPage from './landingpage';
-import App from './aboutme';
+import Interviews from './interviews';
 import Projects from './projects';
-import Resume from './resume';
+import PlayerMovies from './movies';
+import Music from './music';
 
 
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
-    <Route path="/aboutme" component={App} />
+    <Route path="/interviews" component={Interviews} />
     <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
+    <Route path="/movies" component={PlayerMovies} />
+    <Route path="/music" component={Music} />
+
   </Switch>
 )
 
