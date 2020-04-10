@@ -1,14 +1,13 @@
 import YouTube from '@u-wave/react-youtube'
 import React,{Component} from 'react'
-import {Grid, Cell} from 'react-mdl'
 
 class Player extends Component{
   render(){
     return(
-<Grid>
-  <Cell className="leftcol-interviews" col={10}>
+
+<div className="interviews">
       <div>
-        <h2 className="interviews">INTERVIEWS</h2>
+        <h2 >INTERVIEWS</h2>
       </div>
       <YouTube
           video= 'YSMS1F5Y0Ng'
@@ -510,10 +509,7 @@ class Player extends Component{
           showRelatedVideos = 'false'
           suggestedQuality = '1080p'
       />
-  </Cell>
-    <Cell className= "stickynotes"col={2}>
-    </Cell>
-</Grid>
+</div>
 
         )
       }

@@ -8,7 +8,7 @@ class Music extends Component {
     return (
         <Grid >
           <Cell className="leftcol" col={12}>
-            <h2 className="interviews">MUSIC </h2>
+            <h2 className="interviews"> MUSIC </h2>
             <Player/>
           </Cell>
 
